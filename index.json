@@ -1,0 +1,26 @@
+{
+  "name": "Yokimanga Community Sources",
+  "description": "Official Yokimanga source list.",
+  "sources": [
+    {
+      "name": "MangaDex",
+      "language": "English",
+      "version": "1",
+      "iconURL": null,
+      "websiteURL": "https://mangadex.org",
+      "isNSFW": false,
+      "supportsSearch": true,
+      "supportsLatest": true
+    },
+    {
+      "name": "Asura Scans",
+      "language": "English",
+      "version": "15",
+      "iconURL": null,
+      "websiteURL": "https://asuracomic.net",
+      "isNSFW": false,
+      "supportsSearch": true,
+      "supportsLatest": true
+    }
+  ]
+}
