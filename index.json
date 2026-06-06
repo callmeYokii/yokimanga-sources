@@ -1,8 +1,10 @@
 {
-  "name": "Yokimanga Community Sources",
-  "description": "Official Yokimanga source list.",
+  "name": "YokiManga Test Repository",
+  "description": "Development sources for YokiManga.",
   "sources": [
     {
+      "sourceID": "mangadex",
+      "providerID": "mangadex",
       "name": "MangaDex",
       "language": "English",
       "version": "1",
@@ -13,11 +15,13 @@
       "supportsLatest": true
     },
     {
+      "sourceID": "asura",
+      "providerID": "asura",
       "name": "Asura Scans",
       "language": "English",
-      "version": "15",
+      "version": "1",
       "iconURL": null,
-      "websiteURL": "https://asuracomic.net",
+      "websiteURL": "https://asurascans.com",
       "isNSFW": false,
       "supportsSearch": true,
       "supportsLatest": true
