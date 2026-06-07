@@ -1,0 +1,43 @@
+{
+  "sourceID": "asura",
+  "providerID": "asura",
+
+  "name": "Asura Scans",
+  "version": "1.0.0",
+  "language": "en",
+
+  "websiteURL": "https://asuracomic.net",
+
+  "searchURL": "https://asuracomic.net/series?page=1&name={query}",
+  "mangaDetailsURL": "{mangaURL}",
+  "chapterListURL": "{mangaURL}",
+  "pageListURL": "{chapterURL}",
+
+  "parsingRules": {
+    "search": {
+      "cardSelector": ".bsx",
+      "titleSelector": ".tt",
+      "coverSelector": "img",
+      "linkSelector": "a"
+    },
+
+    "mangaDetails": {
+      "titleSelector": ".entry-title",
+      "descriptionSelector": ".entry-content",
+      "coverSelector": ".thumb img",
+      "authorSelector": ".author",
+      "artistSelector": ".artist",
+      "statusSelector": ".status"
+    },
+
+    "chapters": {
+      "chapterSelector": ".clstyle",
+      "titleSelector": "span",
+      "linkSelector": "a"
+    },
+
+    "pages": {
+      "imageSelector": ".rdminimal img"
+    }
+  }
+}
