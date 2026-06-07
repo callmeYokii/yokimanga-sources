@@ -1,30 +1,11 @@
 {
-  "name": "YokiManga Test Repository",
-  "description": "Development sources for YokiManga.",
-  "sources": [
-    {
-      "sourceID": "mangadex",
-      "providerID": "mangadex",
-      "name": "MangaDex",
-      "language": "English",
-      "version": "1",
-      "iconURL": null,
-      "websiteURL": "https://mangadex.org",
-      "isNSFW": false,
-      "supportsSearch": true,
-      "supportsLatest": true
-    },
+  "name": "YokiManga Sources",
+  "description": "Official YokiManga source package repository",
+
+  "packages": [
     {
       "sourceID": "asura",
-      "providerID": "asura",
-      "name": "Asura Scans",
-      "language": "English",
-      "version": "1",
-      "iconURL": null,
-      "websiteURL": "https://asurascans.com",
-      "isNSFW": false,
-      "supportsSearch": true,
-      "supportsLatest": true
+      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/asura.json"
     }
   ]
 }
