@@ -19,7 +19,7 @@
   "titleSelector": "",
   "coverSelector": "img",
   "linkSelector": ""
-}
+},
 
     "mangaDetails": {
       "titleSelector": ".entry-title",
