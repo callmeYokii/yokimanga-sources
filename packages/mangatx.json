@@ -1,0 +1,25 @@
+{
+  "sourceID": "mangatx-engine",
+  "providerID": "mangatx-engine",
+
+  "name": "MangaTX Engine Test",
+  "version": "1.0.0",
+  "language": "en",
+
+  "websiteURL": "https://mangatx.cc",
+
+  "searchURL": "https://mangatx.cc/manga-list?search={query}",
+
+  "mangaDetailsURL": "{mangaURL}",
+  "chapterListURL": "{mangaURL}",
+  "pageListURL": "{chapterURL}",
+
+  "parsingRules": {
+    "search": {
+      "cardSelector": "",
+      "titleSelector": "",
+      "coverSelector": "",
+      "linkSelector": ""
+    }
+  }
+}
