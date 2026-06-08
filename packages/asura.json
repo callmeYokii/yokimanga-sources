@@ -1,8 +1,8 @@
 {
-  "sourceID": "asura",
-  "providerID": "asura",
+  "sourceID": "asura-engine",
+"providerID": "asura-engine",
 
-  "name": "Asura Scans",
+"name": "Asura Scans Engine Test",
   "version": "1.0.0",
   "language": "en",
 
