@@ -22,13 +22,13 @@
 },
 
     "mangaDetails": {
-      "titleSelector": "",
-      "descriptionSelector": "",
-      "coverSelector": "",
-      "authorSelector": "",
-      "artistSelector": "",
-      "statusSelector": ""
-    },
+  "titleSelector": "h1",
+  "descriptionSelector": "",
+  "coverSelector": ".thumb img",
+  "authorSelector": ".tsinfo",
+  "artistSelector": ".tsinfo",
+  "statusSelector": ".tsinfo"
+},
 
     "chapters": {
       "chapterSelector": "",
