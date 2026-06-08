@@ -15,11 +15,11 @@
 
   "parsingRules": {
     "search": {
-      "cardSelector": ".bsx",
-      "titleSelector": ".tt",
-      "coverSelector": "img",
-      "linkSelector": "a"
-    },
+  "cardSelector": "a[href*=/comics/]",
+  "titleSelector": "",
+  "coverSelector": "img",
+  "linkSelector": ""
+}
 
     "mangaDetails": {
       "titleSelector": ".entry-title",
