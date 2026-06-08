@@ -9,7 +9,6 @@
   "websiteURL": "https://mangatx.cc",
 
   "searchURL": "https://mangatx.cc/manga-list?search={query}",
-
   "mangaDetailsURL": "{mangaURL}",
   "chapterListURL": "{mangaURL}",
   "pageListURL": "{chapterURL}",
@@ -20,6 +19,25 @@
       "titleSelector": "",
       "coverSelector": "",
       "linkSelector": ""
+    },
+
+    "mangaDetails": {
+      "titleSelector": "",
+      "descriptionSelector": "",
+      "coverSelector": "",
+      "authorSelector": "",
+      "artistSelector": "",
+      "statusSelector": ""
+    },
+
+    "chapters": {
+      "chapterSelector": "",
+      "titleSelector": "",
+      "linkSelector": ""
+    },
+
+    "pages": {
+      "imageSelector": ""
     }
   }
 }
