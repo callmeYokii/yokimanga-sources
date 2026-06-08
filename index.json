@@ -4,8 +4,8 @@
 
   "packages": [
     {
-      "sourceID": "asura",
-      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/asura.json"
-    }
+  "sourceID": "asura-engine",
+  "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/asura.json"
+}
   ]
 }
