@@ -1,0 +1,43 @@
+{
+  "sourceID": "mangafire-engine",
+  "providerID": "mangafire-engine",
+
+  "name": "MangaFire Engine Test",
+  "version": "1.0.0",
+  "language": "en",
+
+  "websiteURL": "https://mangafire.to",
+
+  "searchURL": "https://mangafire.to/filter?keyword={query}",
+  "mangaDetailsURL": "{mangaURL}",
+  "chapterListURL": "{mangaURL}",
+  "pageListURL": "{chapterURL}",
+
+  "parsingRules": {
+    "search": {
+      "cardSelector": "a[href*='/manga/']",
+      "titleSelector": "",
+      "coverSelector": "img",
+      "linkSelector": ""
+    },
+
+    "mangaDetails": {
+      "titleSelector": "h1",
+      "descriptionSelector": ".description, .synopsis, .content",
+      "coverSelector": "img",
+      "authorSelector": "",
+      "artistSelector": "",
+      "statusSelector": ""
+    },
+
+    "chapters": {
+      "chapterSelector": "a[href*='/chapter-']",
+      "titleSelector": "",
+      "linkSelector": ""
+    },
+
+    "pages": {
+      "imageSelector": "img"
+    }
+  }
+}
