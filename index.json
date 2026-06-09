@@ -4,12 +4,16 @@
 
   "packages": [
     {
-  "sourceID": "asura-engine",
-  "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/asura.json?v=2"
-},
+      "sourceID": "asura-engine",
+      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/asura.json?v=2"
+    },
     {
-  "sourceID": "mangatx-engine",
-  "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/mangatx.json"
-}
+      "sourceID": "mangatx-engine",
+      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/mangatx.json"
+    },
+    {
+      "sourceID": "mangafire-engine",
+      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/mangafire.json"
+    }
   ]
 }
