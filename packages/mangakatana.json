@@ -1,14 +1,14 @@
 {
-  "sourceID": "mangafire-engine",
-  "providerID": "mangafire-engine",
+  "sourceID": "mangakatana-engine",
+  "providerID": "mangakatana-engine",
 
-  "name": "MangaFire Engine Test",
+  "name": "MangaKatana Engine Test",
   "version": "1.0.0",
   "language": "en",
 
-  "websiteURL": "https://mangafire.to",
+  "websiteURL": "https://mangakatana.com",
 
-"searchURL": "https://mangafire.to/filter?keyword={query}",
+  "searchURL": "https://mangakatana.com/?search={query}&search_by=m_name",
   "mangaDetailsURL": "{mangaURL}",
   "chapterListURL": "{mangaURL}",
   "pageListURL": "{chapterURL}",
@@ -23,7 +23,7 @@
 
     "mangaDetails": {
       "titleSelector": "h1",
-      "descriptionSelector": ".description, .synopsis, .content",
+      "descriptionSelector": "",
       "coverSelector": "img",
       "authorSelector": "",
       "artistSelector": "",
