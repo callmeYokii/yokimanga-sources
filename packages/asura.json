@@ -15,7 +15,7 @@
 
   "parsingRules": {
     "search": {
-  "cardSelector": "a[href*='/comics/']"is th,
+  "cardSelector": "a[href*='/comics/']",
   "titleSelector": "",
   "coverSelector": "img",
   "linkSelector": ""
