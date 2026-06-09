@@ -8,7 +8,8 @@
 
   "websiteURL": "https://mangafire.to",
 
-"searchURL": "https://mangafire.to/filter?keyword={query}&vrf=5fcaUfZo7rW1-Z3vTEvXO5sJBfP2yOTM2NIVmftFuGhYxi8cXQ"  "mangaDetailsURL": "{mangaURL}",
+"searchURL": "https://mangafire.to/filter?keyword={query}&vrf=5fcaUfZo7rW1-Z3vTEvXO5sJBfP2yOTM2NIVmftFuGhYxi8cXQ",
+  "mangaDetailsURL": "{mangaURL}",
   "chapterListURL": "{mangaURL}",
   "pageListURL": "{chapterURL}",
 
