@@ -23,15 +23,15 @@
 
     "mangaDetails": {
       "titleSelector": "h1",
-      "descriptionSelector": "",
-      "coverSelector": "img",
-      "authorSelector": "",
-      "artistSelector": "",
+      "descriptionSelector": ".summary p",
+      "coverSelector": "img[alt='[Cover]']",
+      "authorSelector": ".author",
+      "artistSelector": ".author",
       "statusSelector": ""
     },
 
     "chapters": {
-      "chapterSelector": "a[href*='/chapter-']",
+      "chapterSelector": "a[href*='/c']",
       "titleSelector": "",
       "linkSelector": ""
     },
