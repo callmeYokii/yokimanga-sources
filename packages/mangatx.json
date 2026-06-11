@@ -1,47 +1,47 @@
 {
-  "sourceID": "mangatx-engine",
-  "providerID": "mangatx-engine",
+    "sourceID": "mangatx-engine",
+    "providerID": "mangatx-engine",
 
-  "name": "MangaTX Engine Test",
-  "version": "1.1.1",
-  "language": "en",
+    "name": "MangaTX Engine Test",
+    "version": "1.1.1",
+    "language": "en",
 
-  "websiteURL": "https://mangatx.cc",
+    "websiteURL": "https://mangatx.cc",
 
-  "searchURL": "https://mangatx.cc/manga-list?search={query}",
-  "mangaDetailsURL": "{mangaURL}",
-  "chapterListURL": "{mangaURL}",
-  "pageListURL": "{chapterURL}",
+    "searchURL": "https://mangatx.cc/manga-list?search={query}",
+    "mangaDetailsURL": "{mangaURL}",
+    "chapterListURL": "{mangaURL}",
+    "pageListURL": "{chapterURL}",
 
-"latestURL": "https://mangatx.cc/manga-list",
-"popularURL": null,
-"trendingURL": null,
+    "latestURL": "https://mangatx.cc/manga-list",
+    "popularURL": null,
+    "trendingURL": null,
 
-  "parsingRules": {
-    "search": {
- "cardSelector": ".bsx a[href*='/manga/'], .listupd a[href*='/manga/'], .utao .uta a[href*='/manga/']",
-  "titleSelector": "",
-  "coverSelector": "img",
-  "linkSelector": ""
-},
+    "parsingRules": {
+          "search": {
+                  "cardSelector": ".bsx a[href*='/manga/'], .listupd a[href*='/manga/'], .utao .uta a[href*='/manga/']",
+                  "titleSelector": ".tt",
+                  "coverSelector": "img",
+                  "linkSelector": ""
+          },
 
-    "mangaDetails": {
-  "titleSelector": "h1",
-  "descriptionSelector": "",
-  "coverSelector": ".thumb img",
-  "authorSelector": ".tsinfo",
-  "artistSelector": ".tsinfo",
-  "statusSelector": ".tsinfo"
-},
+      "mangaDetails": {
+              "titleSelector": "h1",
+              "descriptionSelector": ".entry-content p",
+              "coverSelector": ".thumb img",
+              "authorSelector": ".tsinfo",
+              "artistSelector": ".tsinfo",
+              "statusSelector": ".tsinfo"
+      },
 
-    "chapters": {
-      "chapterSelector": "",
-      "titleSelector": "",
-      "linkSelector": ""
-    },
+          "chapters": {
+                  "chapterSelector": ".eph-num a",
+                  "titleSelector": ".chapternum",
+                  "linkSelector": ""
+          },
 
-    "pages": {
-      "imageSelector": ""
+          "pages": {
+                  "imageSelector": "#readerarea img"
+          }
     }
-  }
 }
