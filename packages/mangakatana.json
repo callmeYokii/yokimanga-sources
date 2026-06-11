@@ -1,43 +1,43 @@
 {
-  "sourceID": "mangakatana-engine",
-  "providerID": "mangakatana-engine",
+    "sourceID": "mangakatana-engine",
+    "providerID": "mangakatana-engine",
 
-  "name": "MangaKatana Engine Test",
-  "version": "1.0.1",
-  "language": "en",
+    "name": "MangaKatana Engine Test",
+    "version": "1.0.1",
+    "language": "en",
 
-  "websiteURL": "https://mangakatana.com",
+    "websiteURL": "https://mangakatana.com",
 
-  "searchURL": "https://mangakatana.com/?search={query}&search_by=m_name",
-  "mangaDetailsURL": "{mangaURL}",
-  "chapterListURL": "{mangaURL}",
-  "pageListURL": "{chapterURL}",
+    "searchURL": "https://mangakatana.com/?search={query}&search_by=m_name",
+    "mangaDetailsURL": "{mangaURL}",
+    "chapterListURL": "{mangaURL}",
+    "pageListURL": "{chapterURL}",
 
-  "parsingRules": {
-    "search": {
-      "cardSelector": "a[href*='/manga/']",
-      "titleSelector": "",
-      "coverSelector": "img",
-      "linkSelector": ""
-    },
+    "parsingRules": {
+          "search": {
+                  "cardSelector": "a[href*='/manga/']",
+                  "titleSelector": "",
+                  "coverSelector": "img",
+                  "linkSelector": ""
+          },
 
-    "mangaDetails": {
-      "titleSelector": "h1",
-      "descriptionSelector": ".summary p",
-      "coverSelector": "img[alt='[Cover]']",
-      "authorSelector": ".author",
-      "artistSelector": ".author",
-      "statusSelector": ""
-    },
+      "mangaDetails": {
+              "titleSelector": "h1",
+              "descriptionSelector": ".summary p",
+              "coverSelector": "img[alt='[Cover]']",
+              "authorSelector": ".author",
+              "artistSelector": ".author",
+              "statusSelector": ""
+      },
 
-    "chapters": {
-      "chapterSelector": "a[href*='/c']",
-      "titleSelector": "",
-      "linkSelector": ""
-    },
+          "chapters": {
+                  "chapterSelector": "a[href*='/manga/'][href*='/c']",
+                  "titleSelector": "",
+                  "linkSelector": ""
+          },
 
-    "pages": {
-      "imageSelector": "img"
+          "pages": {
+                  "imageSelector": "img"
+          }
     }
-  }
 }
