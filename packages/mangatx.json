@@ -14,12 +14,12 @@
   "pageListURL": "{chapterURL}",
 
 "latestURL": "https://mangatx.cc/manga-list",
-"popularURL": "https://mangatx.cc/manga-list?orderby=popular",
+"popularURL": null,
 "trendingURL": null,
 
   "parsingRules": {
     "search": {
-  "cardSelector": "a[href*='/manga/']",
+ "cardSelector": ".bsx a[href*='/manga/'], .listupd a[href*='/manga/'], .utao .uta a[href*='/manga/']",
   "titleSelector": "",
   "coverSelector": "img",
   "linkSelector": ""
