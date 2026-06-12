@@ -2,7 +2,7 @@
   "sourceID": "mangakatana-engine",
   "providerID": "mangakatana-engine",
   "name": "MangaKatana Engine Test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "language": "en",
   "websiteURL": "https://mangakatana.com",
   "searchURL": "https://mangakatana.com/?search={query}&search_by=m_name",
