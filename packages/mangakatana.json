@@ -2,7 +2,7 @@
   "sourceID": "mangakatana-engine",
   "providerID": "mangakatana-engine",
   "name": "MangaKatana Engine Test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "language": "en",
   "websiteURL": "https://mangakatana.com",
   "searchURL": "https://mangakatana.com/?search={query}&search_by=m_name",
@@ -15,9 +15,9 @@
   "parsingRules": {
     "search": {
       "cardSelector": ".item[data-id]",
-      "titleSelector": "h3 a",
-      "coverSelector": "img",
-      "linkSelector": ""
+"titleSelector": "h3 a",
+"coverSelector": "img",
+"linkSelector": "h3 a"
     },
     "mangaDetails": {
       "titleSelector": "h1",
