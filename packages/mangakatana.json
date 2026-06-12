@@ -1,47 +1,37 @@
 {
-      "sourceID": "mangakatana-engine",
-      "providerID": "mangakatana-engine",
-
-      "name": "MangaKatana Engine Test",
-      "version": "1.0.2",
-      "language": "en",
-
-      "websiteURL": "https://mangakatana.com",
-
-      "searchURL": "https://mangakatana.com/?search={query}&search_by=m_name",
-      "mangaDetailsURL": "{mangaURL}",
-      "chapterListURL": "{mangaURL}",
-      "pageListURL": "{chapterURL}",
-
-      "latestURL": "https://mangakatana.com/latest",
-      "popularURL": "https://mangakatana.com/new-manga",
-      "trendingURL": null,
-
-      "parsingRules": {
-              "search": {
-                        "cardSelector": ".wrap_img a[href*='/manga/']",
-                        "titleSelector": "",
-                        "coverSelector": "img",
-                        "linkSelector": ""
-              },
-
-        "mangaDetails": {
-                  "titleSelector": "h1",
-                  "descriptionSelector": ".summary p",
-                  "coverSelector": "img[alt='[Cover]']",
-                  "authorSelector": ".author",
-                  "artistSelector": ".author",
-                  "statusSelector": ""
-        },
-
-              "chapters": {
-                        "chapterSelector": "a[href*='/manga/'][href*='/c']",
-                        "titleSelector": "",
-                        "linkSelector": ""
-              },
-
-              "pages": {
-                        "imageSelector": "img"
-              }
-      }
+  "sourceID": "mangakatana-engine",
+  "providerID": "mangakatana-engine",
+  "name": "MangaKatana Engine Test",
+  "version": "1.0.3",
+  "language": "en",
+  "websiteURL": "https://mangakatana.com",
+  "searchURL": "https://mangakatana.com/?search={query}&search_by=m_name",
+  "mangaDetailsURL": "{mangaURL}",
+  "chapterListURL": "{mangaURL}",
+  "pageListURL": "{chapterURL}",
+  "latestURL": "https://mangakatana.com/latest",
+  "popularURL": "https://mangakatana.com/new-manga",
+  "trendingURL": null,
+  "parsingRules": {
+    "search": {
+      "cardSelector": ".item[data-id]",
+      "titleSelector": "h3 a",
+      "coverSelector": "img",
+      "linkSelector": ""
+    },
+    "mangaDetails": {
+      "titleSelector": "h1",
+      "descriptionSelector": ".summary p",
+      "coverSelector": "img[alt='[Cover]']",
+      "authorSelector": ".author",
+      "artistSelector": ".author",
+      "statusSelector": ""
+    },
+    "chapters": {
+      "chapterSelector": "a[href*='/manga/'][href*='/c']",
+      "titleSelector": "",
+      "linkSelector": ""
+    },
+    "pages": { "imageSelector": "img" }
+  }
 }
