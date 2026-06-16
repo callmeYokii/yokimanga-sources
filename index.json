@@ -1,18 +1,23 @@
-[
-  {
-    "sourceID": "asura-engine",
-    "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/asura.json"
-  },
-  {
-    "sourceID": "mangatx-engine",
-    "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/mangatx.json"
-  },
-  {
-    "sourceID": "mangakatana-engine",
-    "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/mangakatana.json"
-  },
-  {
-    "sourceID": "manhuaplus-engine",
-    "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/manhuaplus.json"
-  }
-]
+{
+  "name": "YokiManga Sources",
+  "description": "Official YokiManga source repository",
+
+  "packages": [
+    {
+      "sourceID": "asura-engine",
+      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/asura.json"
+    },
+    {
+      "sourceID": "mangatx-engine",
+      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/mangatx.json"
+    },
+    {
+      "sourceID": "mangakatana-engine",
+      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/mangakatana.json"
+    },
+    {
+      "sourceID": "manhuaplus-engine",
+      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/manhuaplus.json"
+    }
+  ]
+}
