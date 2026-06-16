@@ -3,7 +3,7 @@
   "providerID": "manhuaplus-engine",
 
   "name": "ManhuaPlus",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "language": "en",
 
   "websiteURL": "https://manhuaplus.top",
@@ -20,7 +20,7 @@
   "parsingRules": {
     "search": {
       "cardSelector": ".item",
-      "titleSelector": "a[title]",
+      "titleSelector": "figcaption h3 a",
       "coverSelector": "img",
       "linkSelector": "a[title]"
     },
