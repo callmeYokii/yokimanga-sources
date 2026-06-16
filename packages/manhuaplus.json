@@ -3,7 +3,7 @@
   "providerID": "manhuaplus-engine",
 
   "name": "ManhuaPlus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "language": "en",
 
   "websiteURL": "https://manhuaplus.top",
@@ -16,6 +16,8 @@
   "latestURL": "https://manhuaplus.top/",
 "popularURL": null,
 "trendingURL": null,
+"newMangaURL": "https://manhuaplus.top/",
+"topMangaURL": "https://manhuaplus.top/",
   
   "parsingRules": {
     "search": {
