@@ -1,1 +1,43 @@
+{
+  "sourceID": "manhuaplus-engine",
+  "providerID": "manhuaplus-engine",
 
+  "name": "ManhuaPlus",
+  "version": "1.0.0",
+  "language": "en",
+
+  "websiteURL": "https://manhuaplus.top",
+
+  "searchURL": "https://manhuaplus.top/search?keyword={query}",
+  "mangaDetailsURL": "{mangaURL}",
+  "chapterListURL": "{mangaURL}",
+  "pageListURL": "{chapterURL}",
+
+  "parsingRules": {
+    "search": {
+      "cardSelector": ".item.item-follow",
+      "titleSelector": "a[title]",
+      "coverSelector": "img",
+      "linkSelector": "a[title]"
+    },
+
+    "mangaDetails": {
+      "titleSelector": "h1.title-detail",
+      "descriptionSelector": ".detail-content p",
+      "coverSelector": ".col-image img",
+      "authorSelector": "",
+      "artistSelector": "",
+      "statusSelector": ""
+    },
+
+    "chapters": {
+      "chapterSelector": ".list-chapter li.row",
+      "titleSelector": "a",
+      "linkSelector": "a"
+    },
+
+    "pages": {
+      "imageSelector": "#image_container img"
+    }
+  }
+}
