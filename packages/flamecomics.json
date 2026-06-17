@@ -3,7 +3,7 @@
   "providerID": "flamecomics-engine",
 
   "name": "Flame Comics",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "language": "en",
 
   "websiteURL": "https://flamecomics.xyz",
@@ -14,8 +14,8 @@
   "chapterListURL": "{mangaURL}",
   "pageListURL": "{chapterURL}",
 
-  "latestURL": "https://flamecomics.xyz/browse",
-"popularURL": "https://flamecomics.xyz/",
+  "latestURL": "https://flamecomics.xyz/",
+"popularURL": "https://flamecomics.xyz/browse",
 "trendingURL": null,
 "newMangaURL": null,
 "topMangaURL": null,
