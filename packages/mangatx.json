@@ -3,7 +3,7 @@
       "providerID": "mangatx-engine",
 
       "name": "MangaTX Engine Test",
-      "version": "1.1.2",
+      "version": "1.1.4",
       "language": "en",
 
       "websiteURL": "https://mangatx.cc",
@@ -13,9 +13,11 @@
       "chapterListURL": "{mangaURL}",
       "pageListURL": "{chapterURL}",
 
-      "latestURL": "https://mangatx.cc/manga-list",
-      "popularURL": null,
-      "trendingURL": null,
+     "latestURL": "https://mangatx.cc/manga-list?orderby=update",
+"popularURL": "https://mangatx.cc/manga-list?genre=&type=&status=&order=popular",
+"trendingURL": null,
+"newMangaURL": null,
+"topMangaURL": null,
 
       "parsingRules": {
               "search": {
