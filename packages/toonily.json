@@ -3,7 +3,7 @@
   "providerID": "toonily-engine",
 
   "name": "Toonily",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "language": "en",
 
   "websiteURL": "https://toonily.com",
@@ -22,11 +22,11 @@
 
   "parsingRules": {
     "search": {
-      "cardSelector": ".page-item-detail.manga",
-      "titleSelector": "a[title]",
-      "coverSelector": "img",
-      "linkSelector": "a[title]"
-    },
+  "cardSelector": ".page-item-detail.manga",
+  "titleSelector": ".post-title a",
+  "coverSelector": "img",
+  "linkSelector": ".post-title a"
+},
 
     "mangaDetails": {
       "titleSelector": ".post-title h1",
