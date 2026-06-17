@@ -18,6 +18,10 @@
     {
       "sourceID": "toonily-engine",
       "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/toonily.json"
+    },
+    {
+      "sourceID": "flamecomics-engine",
+      "packageURL": "https://raw.githubusercontent.com/callmeYokii/yokimanga-sources/main/packages/flamecomics.json"
     }
   ]
 }
