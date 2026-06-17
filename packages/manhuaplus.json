@@ -3,11 +3,12 @@
   "providerID": "manhuaplus-engine",
 
   "name": "ManhuaPlus",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "language": "en",
 
   "websiteURL": "https://manhuaplus.top",
-
+"iconURL": "https://manhuaplus.top/uploads/images/logo.png",
+  
   "searchURL": "https://manhuaplus.top/search?keyword={query}",
   "mangaDetailsURL": "{mangaURL}",
   "chapterListURL": "{mangaURL}",
