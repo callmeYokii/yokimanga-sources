@@ -1,1 +1,50 @@
+{
+  "sourceID": "madara-template",
+  "providerID": "madara-template",
 
+  "name": "Madara Template",
+  "version": "1.0.0",
+  "language": "en",
+
+  "websiteURL": "https://example.com",
+  "iconURL": "https://example.com/favicon.png",
+
+  "searchURL": "https://example.com/search/{query}",
+  "mangaDetailsURL": "{mangaURL}",
+  "chapterListURL": "{mangaURL}",
+  "pageListURL": "{chapterURL}",
+
+  "latestURL": "https://example.com/webtoons/?m_orderby=latest",
+  "popularURL": "https://example.com/webtoons/?m_orderby=trending",
+  "trendingURL": "https://example.com/webtoons/?m_orderby=trending",
+  "newMangaURL": "https://example.com/webtoons/?m_orderby=new-manga",
+  "topMangaURL": null,
+
+  "parsingRules": {
+    "search": {
+      "cardSelector": ".page-item-detail.manga",
+      "titleSelector": ".post-title a",
+      "coverSelector": "img",
+      "linkSelector": ".post-title a"
+    },
+
+    "mangaDetails": {
+      "titleSelector": ".post-title h1",
+      "descriptionSelector": ".summary__content p, .summary_content p",
+      "coverSelector": ".summary_image img",
+      "authorSelector": ".author-content",
+      "artistSelector": ".artist-content",
+      "statusSelector": ".post-status"
+    },
+
+    "chapters": {
+      "chapterSelector": "li.wp-manga-chapter",
+      "titleSelector": "a",
+      "linkSelector": "a"
+    },
+
+    "pages": {
+      "imageSelector": ".reading-content img"
+    }
+  }
+}
