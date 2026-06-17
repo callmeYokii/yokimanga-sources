@@ -1,0 +1,50 @@
+{
+  "sourceID": "toonily-engine",
+  "providerID": "toonily-engine",
+
+  "name": "Toonily",
+  "version": "1.0.0",
+  "language": "en",
+
+  "websiteURL": "https://toonily.com",
+  "iconURL": "https://toonily.com/wp-content/assets/toonily2026.png",
+
+  "searchURL": "https://toonily.com/search/{query}",
+  "mangaDetailsURL": "{mangaURL}",
+  "chapterListURL": "{mangaURL}",
+  "pageListURL": "{chapterURL}",
+
+  "latestURL": "https://toonily.com/webtoons/?m_orderby=latest",
+  "popularURL": "https://toonily.com/webtoons/?m_orderby=trending",
+  "trendingURL": null,
+  "newMangaURL": "https://toonily.com/webtoons/?m_orderby=new-manga",
+  "topMangaURL": null,
+
+  "parsingRules": {
+    "search": {
+      "cardSelector": ".page-item-detail.manga",
+      "titleSelector": "a[title]",
+      "coverSelector": "img",
+      "linkSelector": "a[title]"
+    },
+
+    "mangaDetails": {
+      "titleSelector": ".post-title h1",
+      "descriptionSelector": ".summary__content p",
+      "coverSelector": ".summary_image img",
+      "authorSelector": "",
+      "artistSelector": "",
+      "statusSelector": ""
+    },
+
+    "chapters": {
+      "chapterSelector": ".wp-manga-chapter",
+      "titleSelector": "a",
+      "linkSelector": "a"
+    },
+
+    "pages": {
+      "imageSelector": ".page-break img"
+    }
+  }
+}
