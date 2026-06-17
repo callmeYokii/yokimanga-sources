@@ -1,0 +1,47 @@
+{
+  "sourceID": "flamecomics-engine",
+  "providerID": "flamecomics-engine",
+
+  "name": "Flame Comics",
+  "version": "1.0.0",
+  "language": "en",
+
+  "websiteURL": "https://flamecomics.xyz",
+  "iconURL": "https://flamecomics.xyz/favicon.ico",
+
+  "searchURL": "https://flamecomics.xyz/browse?search={query}",
+  "mangaDetailsURL": "{mangaURL}",
+  "chapterListURL": "{mangaURL}",
+  "pageListURL": "{chapterURL}",
+
+  "latestURL": "https://flamecomics.xyz/browse",
+  "popularURL": null,
+  "trendingURL": null,
+  "newMangaURL": null,
+  "topMangaURL": null,
+
+  "parsingRules": {
+    "search": {
+      "cardSelector": "a[class*='imageLink']",
+      "titleSelector": "img",
+      "coverSelector": "img",
+      "linkSelector": ""
+    },
+    "mangaDetails": {
+      "titleSelector": "h1",
+      "descriptionSelector": "",
+      "coverSelector": "meta[property='og:image']",
+      "authorSelector": "",
+      "artistSelector": "",
+      "statusSelector": ""
+    },
+    "chapters": {
+      "chapterSelector": "a[class*='chapterWrapper']",
+      "titleSelector": "",
+      "linkSelector": ""
+    },
+    "pages": {
+      "imageSelector": "img[src*='/uploads/images/series/']"
+    }
+  }
+}
